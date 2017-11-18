@@ -1,4 +1,4 @@
-package org.skof.swoosh
+package org.skof.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

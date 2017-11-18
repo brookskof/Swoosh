@@ -1,11 +1,12 @@
-package org.skof.swoosh
+package org.skof.swoosh.Controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_league.*
+import org.skof.swoosh.Utilities.EXTRA_LEAGUE
+import org.skof.swoosh.R
 
 class LeagueActivity : BaseActivity() {
 
@@ -34,7 +35,7 @@ class LeagueActivity : BaseActivity() {
         mensLeagueBtn.isChecked = false
         womensLeagueBtn.isChecked = false
 
-        selectedLeague = "coed"
+        selectedLeague = "co-ed"
 
     }
 
